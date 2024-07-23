@@ -1,5 +1,4 @@
 import React from "react";
-import heroImage from "../Home/img/hero_img.png";
 
 export default function HeroSection() {
   return (
@@ -20,7 +19,10 @@ export default function HeroSection() {
         <button className="btn btn-primary">Get In Touch</button>
       </div>
       <div className="hero--section--img">
-        <img src={heroImage} alt="Hero Section" />
+        <img
+          src={`${process.env.PUBLIC_URL}/img/hero_img.png`}
+          alt="Hero Section"
+        />
       </div>
     </section>
   );

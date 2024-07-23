@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react"; //aka if we have our navbar open or not
 import { Link } from "react-scroll";
-import logo from "./img/logo.svg";
 
 function Navbar() {
   const [navActive, setNavActive] = useState(false);
@@ -36,7 +35,12 @@ function Navbar() {
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`}>
       <div>
-        <img src={logo} alt="Logoipsum" width="187" height="40" />
+        <img
+          src={`${process.env.PUBLIC_URL}/img/logo.svg`}
+          alt="Logoipsum"
+          width="187"
+          height="40"
+        />
       </div>
       <a
         className={`nav__hamburger ${navActive ? "active" : ""}`}
