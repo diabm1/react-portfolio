@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react"; //aka if we have our navbar open or not
+import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 
 function Navbar() {
@@ -35,20 +35,15 @@ function Navbar() {
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`}>
       <div>
-        <img
-          src={`${process.env.PUBLIC_URL}/img/logo.svg`}
-          alt="Logoipsum"
-          width="187"
-          height="40"
-        />
+        <img src="./img/logo.svg" alt="Logoipsum" />
       </div>
       <a
         className={`nav__hamburger ${navActive ? "active" : ""}`}
         onClick={toggleNav}
       >
-        <span className="hav__hamburger__line"></span>
-        <span className="hav__hamburger__line"></span>
-        <span className="hav__hamburger__line"></span>
+        <span className="nav__hamburger__line"></span>
+        <span className="nav__hamburger__line"></span>
+        <span className="nav__hamburger__line"></span>
       </a>
       <div className={`navbar--items ${navActive ? "active" : ""}`}>
         <ul>

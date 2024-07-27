@@ -59,22 +59,22 @@
       "author_designation": "Starbucks"
     },
     {
-      "id": "1",
+      "id": "2",
       "count": "5",
       "src": "../../../img/avatar-image-1.png",
       "title": "Ahuse",
       "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa cumque architecto rerum et!",
-      "author_name": "Dianne Russel",
-      "author_designation": "Starbucks"
+      "author_name": "Kristin Watson",
+      "author_designation": "Louis Vuitton"
     },
     {
-      "id": "1",
+      "id": "3",
       "count": "5",
       "src": "../../../img/avatar-image-2.png",
       "title": "Ahuse",
       "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa cumque architecto rerum et!",
-      "author_name": "Dianne Russel",
-      "author_designation": "Starbucks"
+      "author_name": "Kathryn Murphy",
+      "author_designation": "McDonald's"
     }
   ]
 }
